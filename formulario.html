@@ -1,68 +1,80 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
+
 <head>
-	<meta charset="urf-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
-	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 	<title> Reproducir Mensaje</title>
 	<style>
-		
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-      html,
-      body {
-      	height: 100%;
-      }
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
 
-      body {
-      	display: -ms-flexbox;
-      	display: flex;
-      	-ms-flex-align: center;
-      	align-items: center;
-      	padding-top: 40px;
-      	padding-bottom: 40px;
-      	background-color: #f5f5f5;
-      }
+		html,
+		h2 {
+			color: #ffffff;
+		}
 
-      .form-signin {
-      	width: 100%;
-      	max-width: 330px;
-      	padding: 15px;
-      	margin: auto;
-      }
-      .form-signin .form-control {
-      	position: relative;
-      	box-sizing: border-box;
-      	height: auto;
-      	padding: 10px;
-      	font-size: 16px;
-      }
-    
+		h5{
+			color: whitesmoke;
+		}
+
+		body {
+			height: 100%;
+		}
+
+		body {
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-align: center;
+			align-items: center;
+			padding-top: 40px;
+			padding-bottom: 40px;
+			background-color: #443b63;
+		}
+
+		.form-signin {
+			width: 100%;
+			max-width: 330px;
+			padding: 15px;
+			margin: auto;
+		}
+
+		.form-signin .form-control {
+			position: relative;
+			box-sizing: border-box;
+			height: auto;
+			padding: 10px;
+			font-size: 16px;
+		}
 	</style>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link id="avast_os_ext_custom_font" href="chrome-extension://eofcbnmajmjmplflapaojjnihcjkigck/common/ui/fonts/fonts.css" rel="stylesheet" type="text/css">
-
 </head>
-<body class = "text-center">
-	<form class = "form-signin" name= "form" method = "POST" action="proceso.php">
-		<input type="number" name="telefono"  class= "form-control" placeholder="Extension" required autofocus="">
-		<input type="text" name="mensaje"  class= "form-control" placeholder="Mensaje" required autofocus="">
-		<p>      </p>
-		<button class="btn btn-lg btn-success btn-block" type="submit">Enviar</button>
+
+<body class="text-center">
+	<form class="form-signin" name="form" method="POST" action="proceso.php">
+
+		<h2>Dictado de Mensajes ISSABEL</h2>
+		<h5>con Festival </h5>
+		<p></p>
+		<input type="number" name="telefono" class="form-control" placeholder="Extension" required autofocus="">
+		<input type="text" name="mensaje" class="form-control" placeholder="Mensaje" required autofocus="">
+		<p></p>
+		<button class="btn btn-lg btn-success btn-block" type="submit" >Llamar</button>
 	</form>
 </body>
 </html>
